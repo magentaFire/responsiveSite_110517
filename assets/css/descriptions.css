@@ -1,0 +1,26 @@
+.descriptions-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: 'Didact Gothic', sans-serif;
+  color: #aaa;
+  padding: 50px 30px;
+}
+
+.ilm-container, .rh-container, .kojima-container, .nd-container, .blizzard-container {
+  display: flex;
+  text-align: justify;
+  justify-content: center;
+}
+
+ .ilm-img, .rh-img, .kojima-img, .nd-img, .blizzard-img {
+   display: flex;
+   width: 30%;
+   height: 30%;
+   margin: 10px 0;
+ }
+
+ .ilm-paragraph, .rh-paragraph, .kojima-paragraph, .nd-paragraph, .blizzard-paragraph {
+   display: flex;
+   margin: 0 50px;
+ }
