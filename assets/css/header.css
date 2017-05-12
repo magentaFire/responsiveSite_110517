@@ -28,3 +28,9 @@ nav {
 .nav-link:hover {
   color: black;
 }
+
+@media (max-width: 869px) {
+  .nav-link {
+    display: none;
+  }
+}
