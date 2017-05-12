@@ -5,7 +5,7 @@
 .home-container {
   display: flex;
   width: 100%;
-  height: 43em;
+  height: 780px;
   justify-content: center;
   align-items: center;
 }
@@ -14,7 +14,7 @@
   display: flex;
   background-image: url(../img/head_img01.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -23,7 +23,10 @@
 }
 
 h1 {
+  display: flex;
   font-family: 'Anton', sans-serif;
   font-size: 45px;
   text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
 }

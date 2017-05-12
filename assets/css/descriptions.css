@@ -11,16 +11,25 @@
   display: flex;
   text-align: justify;
   justify-content: center;
+  margin: 40px;
 }
 
  .ilm-img, .rh-img, .kojima-img, .nd-img, .blizzard-img {
    display: flex;
-   width: 30%;
-   height: 30%;
+   width: 40%;
+   height: 40%;
    margin: 10px 0;
+   justify-content: center;
+   align-items: center;
  }
 
  .ilm-paragraph, .rh-paragraph, .kojima-paragraph, .nd-paragraph, .blizzard-paragraph {
    display: flex;
    margin: 0 50px;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .rh-container, .nd-container {
+   flex-direction: row-reverse;
  }

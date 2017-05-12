@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  width: 100%;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #61c0c9;
+}
+
+footer > span {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+}
