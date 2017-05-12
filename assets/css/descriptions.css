@@ -4,7 +4,7 @@
   flex-wrap: nowrap;
   font-family: 'Didact Gothic', sans-serif;
   color: #aaa;
-  padding: 50px 30px;
+  padding: 10px 0 40px 0;
 }
 
 .ilm-container, .rh-container, .kojima-container, .nd-container, .blizzard-container {
@@ -32,4 +32,19 @@
 
  .rh-container, .nd-container {
    flex-direction: row-reverse;
+ }
+
+ @media (max-width: 800px) {
+    .ilm-container, .rh-container, .kojima-container, .nd-container, .blizzard-container {
+      display: flex;
+      flex-wrap: wrap;
+   }
+ }
+
+ @media (max-width: 500px) {
+   .descriptions-container {
+     visibility: hidden;
+     display: none;
+
+   }
  }
